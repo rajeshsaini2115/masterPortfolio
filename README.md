@@ -50,12 +50,12 @@ To view a live example, **[click here](https://ashutosh1919.github.io/)**
 - While installing `nodejs` and `npm`, try to install versions which are equal or greater than the versions mentioned in badges above.
 - In case you want to help developing it or simply saving it, you can fork the repository just by clicking the button on the top-right corner of this page.
 - After the successful installation of `nodejs` and `npm`, clone the repository into your local system using below command:
-  - ```python
+  - ```bash
      git clone https://github.com/ashutosh1919/masterPortfolio.git
     ```
   - This will clone the whole repository in your system.
 - To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
-  - ```python
+  - ```node
     npm install
     ```
 - Now, the project is ready to use.
@@ -73,7 +73,7 @@ Open this file, which is in the main cloned directory, choose any "name" and cha
 
 You will find `src/portfolio.js` file which contains the complete information about the user. The file looks something like below:
 
-```python
+```javascript
 // Home Page
 const greeting = {
     ...
@@ -91,10 +91,10 @@ You can change the personal information, experience, education, social media, ce
 
 ### Github Information
 
-You will find `git_data_fetcher.js` file in the main directory of the repository. This file is used to fetch the data (Pull requests, Issues, Organizations, Pinned projects etc.) from your github.
+You will find `git_data_fetcher.mjs` file in the main directory of the repository. This file is used to fetch the data (Pull requests, Issues, Organizations, Pinned projects etc.) from your github.
 If you open the file, you will see below component at the top of the file. You need to change only that component.
 
-```python
+```javascript
 const openSource = {
   githubConvertedToken: "Your Github Token Here.",
   githubUserName: "Your Github Username Here.",
@@ -106,8 +106,8 @@ Now, you need to run following command.
 
 **Warning:** Treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hardcoding them into your programs.
 
-```python
-node git_data_fetcher.js
+```node
+node git_data_fetcher.mjs
 ```
 
 This will fetch all the data from your github and it will automatically replace my data with yours.
@@ -122,7 +122,7 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 - If you don't want Splash screen or you don't know how to design logo, then this option is for you.
 
   - You can open `src/portfolio.js` file and at the top of this file you will see `settings` component as below:
-  - ```python
+  - ```javascript
     // Website related settings
     const settings = {
       isSplash: true,
@@ -219,6 +219,11 @@ If you can help us with these. Please don't hesitate to open an [pull request](h
     <td align="center"><a href="http://baul.ml"><img src="https://avatars.githubusercontent.com/u/33395806?v=4?s=100" width="100px;" alt=""/><br /><sub><b>paul</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=baulml" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/SandipDhang"><img src="https://avatars.githubusercontent.com/u/50694884?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sandip Dhang</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=SandipDhang" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ioribrn"><img src="https://avatars.githubusercontent.com/u/43734587?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jawad Moustadif</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=ioribrn" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/priyanshk20"><img src="https://avatars.githubusercontent.com/u/52736997?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Priyansh Khandelwal</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=priyanshk20" title="Code">💻</a> <a href="#design-priyanshk20" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/abdslam01"><img src="https://avatars.githubusercontent.com/u/59281502?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abdessalam Bahafid</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=abdslam01" title="Code">💻</a></td>
+    <td align="center"><a href="https://dhruvkrishnavaid.github.io"><img src="https://avatars.githubusercontent.com/u/69188774?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dhruv Krishna Vaid</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=dhruvkrishnavaid" title="Code">💻</a> <a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=dhruvkrishnavaid" title="Documentation">📖</a> <a href="#ideas-dhruvkrishnavaid" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 

@@ -136,6 +136,36 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "priyanshk20",
+      "name": "Priyansh Khandelwal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52736997?v=4",
+      "profile": "https://github.com/priyanshk20",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "abdslam01",
+      "name": "Abdessalam Bahafid",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59281502?v=4",
+      "profile": "https://github.com/abdslam01",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "dhruvkrishnavaid",
+      "name": "Dhruv Krishna Vaid",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69188774?v=4",
+      "profile": "https://dhruvkrishnavaid.github.io",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
